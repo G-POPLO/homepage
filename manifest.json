@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "description": "你好，这里是C-Poplo的个人网站！这个网站上会展示一些我的个人作品或者其他的东西",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "wwwcpoplo",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "wwwcpoplo",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "images/180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}
