@@ -24,7 +24,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="manifest" href="manifest.json" />
   <!--  应用Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -432,7 +432,11 @@
 
   <!-- 应用 Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
 </body>
 
 </html>
